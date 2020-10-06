@@ -57,13 +57,13 @@ class Invoice
        }
        else
        if(price_per_unit>0)
-       
       {price_per_unit=price;}
 
     }
     int getPrice()
     {
-        return price_per_unit;
+        return   price=price_per_unit*quantity_purchased;
+
     }
 
 
